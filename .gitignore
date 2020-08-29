@@ -1,0 +1,8 @@
+.idea
+.idea/modules.xml
+.npmrc
+*.log
+node_modules
+dist
+*.lock
+.DS_Store
