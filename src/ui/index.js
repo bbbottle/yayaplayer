@@ -1,3 +1,3 @@
 export {
-  TinyPlayerWorld
-} from './tiny_player_world';
+  RoughTheme
+} from './rough_theme';

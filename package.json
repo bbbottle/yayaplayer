@@ -1,0 +1,37 @@
+{
+  "name": "@zhoujiahao/yayaplayer",
+  "version": "1.0.0",
+  "description": "a player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbbottle/yayaplayer.git"
+  },
+  "keywords": [
+    "audio",
+    "player.",
+    "ui.",
+    "react.",
+    "component"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbbottle/yayaplayer/issues"
+  },
+  "homepage": "https://github.com/bbbottle/yayaplayer#readme",
+  "dependencies": {
+    "howler": "^2.2.0",
+    "@zhoujiahao/bblego": "^0.2.1",
+    "roughjs": "^4.3.1"
+  },
+  "peerDependencies": {
+    "@zhoujiahao/vendor": "^1.0.0"
+  }
+}

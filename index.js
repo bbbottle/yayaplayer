@@ -3,4 +3,4 @@ export {
 } from './src/core/index'
 
 
-export * from './src/ui/widgets'
+export * from './src/ui/rough_theme/widgets'

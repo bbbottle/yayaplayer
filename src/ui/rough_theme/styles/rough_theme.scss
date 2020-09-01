@@ -1,0 +1,31 @@
+@font-face {
+  font-family: skcd;
+  src: url('../font/xkcd-script.ttf') format('truetype');
+}
+
+.rough-player-theme {
+  svg, svg * {
+    pointer-events: unset;
+  }
+
+  svg.btn {
+    cursor: pointer;
+  }
+
+  font-family: skcd, serif;
+
+  .line-wrapper {
+    height: 24px;
+    margin: 0 15px;
+    position: relative;
+    .slider {
+      position: absolute;
+    }
+  }
+  .progress-bar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+  }
+}
