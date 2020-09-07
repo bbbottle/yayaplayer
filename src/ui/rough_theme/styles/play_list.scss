@@ -1,0 +1,36 @@
+@font-face {
+  font-family: skcd;
+  src: url('../font/xkcd-script.ttf') format('truetype');
+}
+
+.play-list {
+  font-family: skcd, serif;
+
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+  width: 300px;
+
+  li {
+    cursor: pointer;
+    color: $black;
+    transition: color .2s;
+    line-height: 1.7;
+    &:hover {
+      color: $green-3;
+    }
+    &:before {
+      content: ' - ';
+      display: inline-block;
+      width: 20px;
+      text-align: center;
+    }
+
+    &.selected {
+      color: $green-1;
+      &:before {
+        content: ' * ';
+      }
+    }
+  }
+}

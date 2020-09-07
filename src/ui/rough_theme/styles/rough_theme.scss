@@ -4,12 +4,15 @@
 }
 
 .rough-player-theme {
+  display: inline-flex;
+  flex-direction: column;
   svg, svg * {
     pointer-events: unset;
   }
 
   svg.btn {
     cursor: pointer;
+    margin: 0 5px;
   }
 
   font-family: skcd, serif;
@@ -27,5 +30,11 @@
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+
+    .time {
+      display: inline-block;
+      width: 55px;
+      text-align: center;
+    }
   }
 }

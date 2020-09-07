@@ -76,7 +76,7 @@ export class ProgressBar extends React.PureComponent {
 
     return (
       <div className="progress-bar">
-        <span>{timeFormatter(currentTime)}</span>
+        <span className="time">{timeFormatter(currentTime)}</span>
         <div className="line-wrapper">
           <svg
             className="progress-line"
@@ -94,7 +94,7 @@ export class ProgressBar extends React.PureComponent {
             ref={this.setSliderRef}
           />
         </div>
-        <span>{timeFormatter(duration)}</span>
+        <span className="time">{timeFormatter(duration)}</span>
       </div>
     )
   }

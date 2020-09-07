@@ -4,7 +4,6 @@ import { PlayPauseBtn, ProgressBar } from "./widgets";
 
 import '../rough_theme/styles/rough_theme.scss'
 
-
 export class RoughTheme extends React.PureComponent {
   static propTypes = {
     isPlaying: PropTypes.bool.isRequired,
